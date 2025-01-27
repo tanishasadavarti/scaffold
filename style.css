@@ -1,0 +1,403 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.submenu
+{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    display: none;
+}
+.dropmenu:hover .submenu
+{
+    display: block;
+}
+.box1::after
+{
+    content: '';
+    /* width:70%; */
+    position: relative;
+    display: block;
+    padding: 15px;
+    transition: 0.8s ease;
+}
+.box1:hover::after
+{
+    
+    border-bottom:  4px solid rgb(231, 148, 162);
+    margin-top: -2%;
+}
+.box2::after
+{
+    content: '';
+    position: relative;
+    display: block;
+    padding: 15px;
+    transition: 0.8s ease;
+}
+.box2:hover::after
+{
+    
+    border-bottom:  5px solid rgb(116, 188, 212);
+    margin-top: -2%;
+}
+.box3::after
+{
+    content: '';
+    /* width:70%; */
+    position: relative;
+    display: block;
+    padding: 15px;
+    transition: 0.8s ease;
+}
+.box3:hover::after
+{
+    
+    border-bottom:  5px solid rgb(78, 177, 78);
+    margin-top: -2%;
+}
+.box4::after
+{
+    content: '';
+    /* width:70%; */
+    position: relative;
+    display: block;
+    padding: 15px;
+    transition: 0.8s ease;
+}
+.box4:hover::after
+{
+    
+    border-bottom:  5px solid blue;
+    margin-top: -2%;
+}
+.port
+{
+    color: black;
+}
+.btn:active
+{
+    color: blue;
+}
+
+.main
+{
+    position: relative;
+}
+.img
+{
+  background-color: rgba(255, 255, 255, 0.568);
+  height:230px;
+  width: 320px;
+  position: absolute;
+  top: 10px;
+  left: 30px; 
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+}
+.img:hover
+{
+    opacity: 1;
+
+}
+.con
+{
+   
+    position: relative;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    transition: all ease-in-out 0.5s;
+    height: 250px;
+    width: 320px;
+}
+.con:hover
+{
+    opacity: 1;
+    top: calc(100px - 50px);
+}
+.icon1
+{
+    border-radius: 50%;
+    padding: 10px;
+    font-size:25px ;
+    padding: 8px 10px;
+    color: rgb(3, 154, 204);
+    background-color: rgb(218, 245, 255);
+    transition: all ease-in-out 0.5s;
+}
+.icon1:hover
+{
+    color:rgb(218, 245, 255) ;
+    background-color:rgb(3, 154, 204); ;
+}
+.icon2
+{
+    border-radius: 50%;
+    padding: 8px 10px;
+    font-size:25px ;
+    color: rgb(3, 154, 204);
+    background-color: rgb(218, 245, 255);
+    transition: all ease-in-out 0.5s;
+
+}
+.icon2:hover
+{
+    color:rgb(218, 245, 255) ;
+    background-color:rgb(3, 154, 204); ;
+}
+
+.banner
+{
+    background:linear-gradient(rgba(255, 255, 255, 0.781),rgba(255, 255, 255, 0.719)), url('img/cta-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%;
+    height: 400px; */
+    background-attachment: fixed;
+    /* margin-left: -40%; */
+    margin: auto;
+}
+.img-btn
+{
+    height:40px;
+    
+}
+button
+{
+    background-color: rgb(61, 171, 223);
+    
+
+}
+.content
+{
+    margin: 50px;
+}
+.profile
+{
+    font-style: italic;
+}
+.profile-img
+{
+   
+   margin-top: -35px;
+   margin-left: 40px;
+   position:relative;
+  
+
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+  }
+
+  .swiper-slide img {
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.profile-img img
+{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 6px solid white;
+}
+  
+.background
+{
+      background:linear-gradient(rgba(255, 255, 255, 0.781),rgba(209, 209, 209, 0.719)), url('img/team-bg\ \(1\).jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      margin-top: 20%;
+      /* margin-left: -10%; */
+}
+.card-box
+{
+    background-color: white;
+    height: 150px;
+    width: 310px;
+    position: relative;
+    left: 25px;
+    top: -60px;
+}
+.team-icon 
+{
+    margin-top: -10px;
+    padding-left: 28%;
+    
+}
+
+.team-icon i
+{
+    color: gray;
+    /* visibility: hidden; */
+}
+
+.line
+{
+    border: 1px solid gray;
+    width: 20%;
+   margin-left: 40%;
+}
+.logo img
+{
+  filter: grayscale(100);
+  transition: all 0.5s ease-in-out;
+}
+.logo img:hover
+{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+/* .map
+{
+    background-color: gray;
+} */
+.location i
+{
+    font-size: 24px;
+    padding: 10px 13px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+    color:rgb(48, 114, 255) ;
+    transition: all 0.5s ease-in-out;
+
+}
+.info:hover
+{
+    .location i
+    {
+        background-color: rgb(48, 114, 255);
+    color: white;
+    }
+    
+}
+
+.con-add
+{
+    background-color: white;
+    box-shadow: 0px 0px 15px rgb(216, 216, 216);
+    /* border: 1px solid rgb(173, 173, 173); */
+}
+.mail i
+{
+    font-size: 24px;
+    padding: 10px 13px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+    color:rgb(48, 114, 255) ;
+    transition: all 0.5s ease-in-out;
+}
+.email:hover
+{
+    .mail i
+    {
+        background-color: rgb(48, 114, 255);
+    color: white;
+    }
+    
+}
+.phone i
+{
+    font-size: 24px;
+    padding: 10px 13px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+    color:rgb(48, 114, 255) ;
+    transition: all 0.5s ease-in-out;
+
+}
+.call:hover
+{
+    .phone i
+    {
+        background-color: rgb(48, 114, 255);
+    color: white;
+    }
+    
+}
+.name label
+{
+   display: block
+}
+.name2 label
+{
+    display: block;
+}
+.text label
+{
+    display: block;
+}
+.sub label
+{
+    display: block;
+}
+.sub input
+{
+    width: 100%;
+}
+.main-form
+{
+    box-shadow: 0px 0px 15px rgb(216, 216, 216);
+}
+.name input
+{
+    height: 50px;
+    width: 120%;
+}
+.name2 input
+{
+    height: 50px;
+    width: 120%;
+}
+.sub input
+{
+    height: 50px;
+}
+.main-form button
+{
+    margin-left: 35%;
+}
+.icon  i
+{
+    padding: 10px 12px;
+    background-color: lightgray;
+    border-radius: 50%;
+    color: gray;
+    transition: all 0.5s ease-in-out;
+}
+.icon i:hover
+{
+    background-color:rgb(3, 154, 204); ;
+    color: white;
+}
+.use-footer p
+{
+    transition: all 0.5s ease-in-out;
+}
+.use-footer p:hover
+{
+    color: blue;
+}
+.last-footer input
+{
+    height: 43px;
+    width: 100%;
+}
+.last-footer button
+{
+    margin-top: -72px;
+    margin-left: 68%;
+}
